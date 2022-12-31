@@ -1,0 +1,20 @@
+Context 
+- This would be personal toolbox type of application
+  Which contain multiple micro application
+
+**Micro Application -
+1.Todo App 
+2.Calculator App
+3.Weather App 
+4.Prayer Times Reminder App 
+5.Project Managment features implementation
+-------------
+
+**Technical Stuff
+- I would use vanila javascript for doing all the stuff
+- I'll use CSS And SCSS for styling stuff 
+- If  I need page router I'll use thirdparty library for that 
+- Some animation would be awesome 
+- Webpack for bundler 
+- Git & Github 
+- Lot of things to learn on the way 
