@@ -6,12 +6,14 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // Here, you write different options and tell Webpack what to do
 module.exports = {
   // Path to your entry point. From this file Webpack will begin its work
-  entry: {
-    index: "./src/js/index.js",
-  },
+  entry: "./src/js/index.js",
 
   devServer: {
-    static: "./dist",
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
+    hot: true,
+    port: 8000,
   },
   // optimization: {
   //   runtimeChunk: "single",
@@ -21,8 +23,10 @@ module.exports = {
   // Webpack will bundle all JavaScript into this file
   output: {
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
+
     filename: "bundle.js",
+    publicPath: "/dist",
+    clean: true,
   },
 
   // Set rules for loader and babel transpilar
