@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script defer src="/dist/bundle.js"></script><link href="/dist/bundle.css" rel="stylesheet">
+    <%= htmlWebpackPlugin.tags.headTags %>
 
-    <title>Personal Toolbox</title>
-  <script defer src="/dist/bundle.js"></script><link href="/dist/bundle.css" rel="stylesheet"></head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
   <body>
     <div class="container">
       <h1>This is what i want</h1>

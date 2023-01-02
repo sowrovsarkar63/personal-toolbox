@@ -1,6 +1,7 @@
 // Webpack uses this to work with directories
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 // This is the main configuration object.
 // Here, you write different options and tell Webpack what to do
@@ -111,6 +112,11 @@ module.exports = {
   plugins: [
     new MiniCssExtractPlugin({
       filename: "bundle.css",
+    }),
+    new HtmlWebpackPlugin({
+      title: "Personal Toolbox",
+      filename: "index.html",
+      template: "./index.html",
     }),
   ],
 
