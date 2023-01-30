@@ -16,7 +16,7 @@
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/styles.scss */ \"./src/sass/styles.scss\");\n/* harmony import */ var _todoapp_todo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./todoapp/todo */ \"./src/js/todoapp/todo.js\");\n\n\nconsole.log(\"Hello world \");\n(0,_todoapp_todo__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://personal-toolbox/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sass_styles_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../sass/styles.scss */ \"./src/sass/styles.scss\");\n/* harmony import */ var _todoapp_todo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./todoapp/todo */ \"./src/js/todoapp/todo.js\");\n\n\n(0,_todoapp_todo__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://personal-toolbox/./src/js/index.js?");
 
 /***/ }),
 
